@@ -25,7 +25,7 @@ local UserInputService = game:GetService("UserInputService")
 local Camera = workspace.CurrentCamera
 
 local Typing = false
-
+_G.ESPVisible
 _G.SendNotifications = true   -- If set to true then the script would notify you frequently on any changes applied and when loaded / errored. (If a game can detect this, it is recommended to set it to false)
 _G.DefaultSettings = false   -- If set to true then the ESP script would run with default settings regardless of any changes you made.
 
